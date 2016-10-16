@@ -97,7 +97,6 @@ evaluate(function(x){x[3]},c(8,4,0))
 skip()
 save.image("C:\\Users\\prosh\\Documents\\R\\functions1")
 ?paste
-paste("Programming","is","fun")
 paste("Programming","is","fun!")
 q()
 setwd("~/")
