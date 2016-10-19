@@ -182,4 +182,4 @@ p+geom_point(aes(shape=factor(victory),size=total))+geom_line(aes(color=factor(y
 p+geom_point(aes(shape=factor(victory),size=total))+geom_line(aes(color=factor(year)))+geom_text(aes(colour=factor(year),label=player),position=position_jitter(width=5,height=1))+facet_grid(~year)+theme(panel.background=element_rect(fill="white"))+facet_wrap(~panel,scales='free')
 p+geom_point(aes(shape=factor(victory),size=total))+geom_line(aes(color=factor(year)))+geom_text(aes(colour=factor(year),label=player),position=position_jitter(width=2,height=1))+facet_grid(~year)+theme(panel.background=element_rect(fill="white"))+facet_wrap(~panel,scales='free')
 p+geom_point(aes(shape=factor(victory),size=total))+geom_line(aes(color=factor(year)))+geom_text(aes(colour=factor(year),label=player),position=position_jitter(width=8,height=1))+facet_grid(~year)+theme(panel.background=element_rect(fill="white"))+facet_wrap(~panel,scales='free')
-savehistory("~/lab 9-21/a.r")
+
