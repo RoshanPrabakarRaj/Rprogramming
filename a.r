@@ -1,5 +1,3 @@
-
-launch
 library("swirl")
 swirl()
 my_vector<-c(1:20)
