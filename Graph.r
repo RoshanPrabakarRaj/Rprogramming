@@ -50,5 +50,5 @@ p + geom_point(aes(shape=factor(victory), size=total))+geom_text_repel(aes(colou
 p+geom_point(aes(shape=factor(victory),size=total,colour=factor(year)))+geom_line(aes(color=factor(year)))+geom_text_repel(aes(colour=factor(year),label=player))+facet_grid(~year)+facet_wrap(~year,scales='free',ncol=4)+theme(panel.background=element_rect(fill="white"))
 p+geom_point(aes(shape=factor(victory),size=total,colour=factor(year)))+geom_line(aes(color=factor(year)),size=2)+geom_text_repel(aes(colour=factor(year),label=player))+facet_grid(~year)+facet_wrap(~year,scales='free',ncol=4)+theme(panel.background=element_rect(fill="white"))
 p+geom_point(aes(shape=factor(victory),size=total,colour=factor(year)))+geom_line(aes(color=factor(year)),size=2)+geom_text_repel(aes(colour=factor(year),label=player,size=90))+facet_grid(~year)+facet_wrap(~year,scales='free')+theme(panel.background=element_rect(fill="white"))
-p+geom_point(aes(shape=factor(victory),size=total,colour=factor(year)))+geom_line(aes(color=factor(year)),size=2)+geom_text_repel(aes(colour=factor(year),label=player,size=90))+facet_grid(~year)+facet_wrap(~year,scales='free',ncol=4)+theme(panel.background=element_rect(fill="white"))
+
 
