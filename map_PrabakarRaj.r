@@ -7,7 +7,7 @@ xlim <- c(-171.738281, -56.601563)
 ylim <- c(12.039321, 71.856229)
 map("world", col= "#f3f3f3", fill= TRUE, bg= "white", lwd= 0.3, xlim=xlim, ylim=ylim)
 
-# plot new york state (Figure 4 & 5)
+# plot new york state (Figure 4 & 5)//considering newyork
 map("state", "New York")
 data(us.cities)
 map.cities(us.cities, country="NY")
