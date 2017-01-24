@@ -21,7 +21,7 @@ map("state", col= "grey", boundary=TRUE, fill= TRUE, lty= 5,lwd= 0.2)
 map("state", regions= "texas", col = "red", fill= TRUE, add= TRUE, lty= 1, lwd= 2)
 map.text("state","texas", col="white", add= TRUE)
 
-# highlight arizona 
+# highlight AZ 
 map("state", col= "grey", boundary=TRUE, fill= TRUE, lty= 5,lwd= 0.2)
 map("state", regions= "arizona", col = "green", fill= TRUE, add= TRUE, lty= 1, lwd= 2)
 map.text("state","arizona", col="white", add= TRUE)
