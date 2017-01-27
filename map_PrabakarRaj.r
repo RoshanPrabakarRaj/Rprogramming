@@ -1,6 +1,6 @@
 require(maps)
-map("state") #(Figure 1)
-map("world") #(Figure 2)
+map("state") 
+map("world") 
 
 # plot north America (Figure 3)
 xlim <- c(-171.738281, -56.601563)
